@@ -1,0 +1,154 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  justify-content: space-between;
+  text-align: justify;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  display: flex;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top:  50px;
+}
+ .container {
+   align-items: center;
+    display: flex;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+body {
+
+  background-color: #ebc028;
+}
+footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  display: flex;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+nav ul li {
+  font-family: "Arial Black", Gadget, sans-serif;
+font-size: 27px;
+letter-spacing: -2px;
+word-spacing: 0px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+text-decoration-color: Black;
+}
+a {
+text-decoration: none;
+color: Black;
+}
+h1 {
+  font-family: "Arial Black", Gadget, sans-serif;
+font-size: 27px;
+letter-spacing: -2px;
+word-spacing: 0px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+text-decoration-color: Black;
+}
+.fuck {
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 23px;
+letter-spacing: -0.6px;
+word-spacing: -0.8px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
